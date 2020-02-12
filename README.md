@@ -1,6 +1,7 @@
 # Running Mosquitto with auth in Docker
 
-Simple example of how to run Mosquitto with auth in Docker. I have used the [official Eclipse Mosquitto MQTT Broker Docker image](https://hub.docker.com/_/eclipse-mosquitto/).
+[![Docker Hub](https://img.shields.io/docker/cloud/build/lawtancool/mosquitto-env-auth)](https://hub.docker.com/r/lawtancool/mosquitto-env-auth "Docker Hub link")
+Simple example of how to run Mosquitto with auth in Docker. Based on the [official Eclipse Mosquitto MQTT Broker Docker image](https://hub.docker.com/_/eclipse-mosquitto/).
 
 ## Usage
 
