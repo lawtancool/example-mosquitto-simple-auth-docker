@@ -1,4 +1,4 @@
-FROM eclipse-mosquitto:1.6.13@sha256:2139260e11a97b262979ff2f8454be08b715677341943d61ab226f69106a4756
+FROM eclipse-mosquitto:1.6.14@sha256:662e39d0062a365170fa78abeadb4b7dc19d6edbb6a26a883b5d2376c76844f8
 
 COPY docker-entrypoint.sh /
 
