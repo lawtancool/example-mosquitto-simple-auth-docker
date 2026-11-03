@@ -13,4 +13,11 @@ rm -f passwordfile || true
 touch passwordfile
 mosquitto_passwd -b passwordfile $MOSQUITTO_USERNAME $MOSQUITTO_PASSWORD
 
+# fix permissions
+chown mosquitto /mosquitto/log/mosquitto.log
+chmod 0700 /mosquitto/log/mosquitto.log
+
+chown mosquitto passwordfile
+chmod 0700 passwordfile
+
 exec "$@"
